@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+
+:root {
+    --fw-light: 300;
+    --fw-normal: 400;
+    --fw-bold: 700;
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    direction: rtl;
+}
+
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 16px;
+}
+
+
+/* Header component */
+header {
+    background-color: #f8f8f8;
+    padding: 20px 0;
+}
+
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header ul {
+    list-style-type: none;
+    display: flex;
+    align-items: stretch;
+    gap: 20px;
+}
+
+header nav {
+    position: relative;
+}
+
+header .menu {
+    align-items: stretch;
+    flex-direction: column;
+    gap: 4px;
+    cursor: pointer;
+    display: none;
+}
+
+header .menu span {
+    width: 16px;
+    height: 2px;
+    border-radius: 4px;
+    background-color: #333;
+}
+
+header section {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+header .icons {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+header .icon {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #ccc;
+}
+
+@media screen and (max-width: 600px) {
+    header ul {
+        position: absolute;
+        top: 100%;
+        right: 0;
+        background-color: #f8f8f8;
+        display: none;
+    }
+
+    header .menu {
+        display: flex;
+    }
+
+    header .menu:hover+ul {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+/* Main styles */
+
+main .container {
+    padding: 20px 40px;
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+}
