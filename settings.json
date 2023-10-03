@@ -1,0 +1,68 @@
+{
+    "terminal.integrated.defaultProfile.windows": "Git Bash",
+    "git.enableSmartCommit": true,
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    // "prettier.singleQuote": true,
+    // "prettier.semi": true,
+    // "prettier.arrowParens": "avoid",
+    // "prettier.bracketSpacing": true,
+    // "prettier.requireConfig": true,
+    // "prettier.useTabs": true,
+    "diffEditor.ignoreTrimWhitespace": false,
+    "git.confirmSync": false,
+    "workbench.iconTheme": "material-icon-theme",
+    "emmet.includeLanguages": {
+        "javascript": "javascriptreact"
+    },
+    "git.autofetch": true,
+    "material-icon-theme.folders.color": "#ef5350",
+    "launch": {
+        "configurations": [],
+        "compounds": []
+    },
+    "editor.unicodeHighlight.ambiguousCharacters": false,
+    "workbench.colorTheme": "Ayu Mirage Bordered",
+    "css.lint.unknownAtRules": "ignore",
+    "editor.formatOnSave": true,
+    // "editor.insertSpaces": true,
+    "editor.detectIndentation": true,
+    "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": true,
+        "source.fixAll": true
+    },
+    "git.rebaseWhenSync": true,
+    "breadcrumbs.enabled": true,
+    "explorer.confirmDragAndDrop": false,
+    "editor.formatOnPaste": false,
+    "editor.cursorSmoothCaretAnimation": "on",
+    "editor.fontFamily": "Dank Mono, Fira Code, Menlo, Monaco, 'Courier New', monospace",
+    "terminal.integrated.fontFamily": "Dank Mono",
+    "editor.fontLigatures": true,
+    "editor.tokenColorCustomizations": {
+        "textMateRules": [
+            {
+                "scope": [
+                    //following will be in italic
+                    "comment",
+                    "emphasis",
+                    "string",
+                    "constant",
+                    "keyword",
+                    "entity",
+                    "markup",
+                    "meta",
+                    "punctuation",
+                    "source",
+                    "storage",
+                    "text",
+                    "tag",
+                    "variable"
+                ],
+                "settings": {
+                    "fontStyle": "italic"
+                }
+            }
+        ]
+    },
+    "editor.fontSize": 15
+}
